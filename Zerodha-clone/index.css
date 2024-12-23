@@ -1,0 +1,58 @@
+body {
+    margin: 0; /* Remove default margin */
+    font-family: "Inter", serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* Align items vertically in the center */
+    width: 100%;
+    margin: 0 auto;
+    padding: 17px;
+    box-shadow: 2px 1px 2px #eee;
+    box-sizing: border-box;
+}
+.navbar .logo-img{
+    height: 17px;
+    vertical-align: middle;
+    position: relative;
+    
+}
+.navbar-links{
+    display: flex;
+    gap: 15px;
+    
+}
+.flex{
+    padding: 10px;
+}
+.navbar a{
+    text-decoration: none;
+    color: gray;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.invest-heading{
+    font-weight: 500;
+}
+.short-description{
+    font-weight: 400;
+    color: darkslategrey;
+}
+.signup-btn{
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 45px;
+    font-size: 16px;
+    border-radius: 5px;
+}
